@@ -13,7 +13,6 @@ classdef MainFigure < handle
         CrossLineSwitch % 十字光标开关（0 or 1）
     end
  
-    
    
     events
         DataSourceChange   % 主画面“Data”属性变化事件
