@@ -300,7 +300,7 @@ classdef Stock<handle
              
              
          end % PriceList
-         function Val=HistoryDaily2(obj,BeginDate,EndDate,XR)% 历史日线交易
+         function Val=HistoryDaily1(obj,BeginDate,EndDate,XR)% 历史日线交易
              % e.g.    S.HistoryDaily2('2015-07-03','2015-07-28')      % 不复权
              % e.g.    S.HistoryDaily2('2015-07-03','2015-07-28','R') % 后复权
              % e.g.    S.HistoryDaily2('2015-07-03','2015-07-28','L')  % 前复权
@@ -395,7 +395,7 @@ classdef Stock<handle
                  end
              end
          end % HistoryDaily(新浪复权数据)
-         function Val=HistoryDaily1(obj,BeginDate,EndDate,XR)% 历史日线交易
+         function Val=HistoryDaily2(obj,BeginDate,EndDate,XR)% 历史日线交易
              % e.g.    S.HistoryDaily('2015-07-03','2015-07-28')      % 不复权
              % e.g.    S.HistoryDaily('2015-','2007-0315-07-28','R') % 后复权
              % e.g.    S.HistoryDaily('2015-07-03','2015-07-28','L')  % 前复权
